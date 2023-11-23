@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<style>
+body {
+background-color: lightblue;
+color: white;
+}
+.question, .answer-list {
+background-color: rgba(255, 255, 255, 0.5);
+padding: 20px;
+margin: 20px;
+}
+.answer-list {
+list-style-type: none;
+}
+.answer {
+background-color: pink;
+margin: 5px;
+padding: 10px;
+cursor: pointer;
+}
+.answer.active {
+background-color: lightcoral;
+}
+</style>
+</head>
+<body>
+<div class="question">
+<h2>Frage wird hier angezeigt</h2>
+</div>
+<ul class="answer-list">
+<!-- Antwortmöglichkeiten werden hier eingefügt -->
+</ul>
+<button class="submit-button">Einreichen</button>
+<div class="result-container"></div>
+<button class="restart-button">Try again?</button>
+
+<script src="script.js"></script>
+</body>
+</html>
